@@ -1,11 +1,11 @@
 package com.ConditionalOperators;
 
+import java.sql.Driver;
 import java.sql.DriverManager;
 import java.sql.Time;
 import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -30,18 +30,18 @@ public class WithOutUsingSelectFunction {
 			break;
 		}
 		
-		
+		driver.close();
 		
 		}
 //		WebElement button=	driver.findElement(By.xpath("//button[text()='No thanks']"));
 //		button.click();
 		
-		
 
 //		WebElement element=driver.findElement(By.id("input"));
 //		element.sendKeys("india");
 //		element.click();
-
+	
+		
 	
 
 }
