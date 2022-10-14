@@ -11,7 +11,7 @@ public class FirstClass {
 		System.out.println("hello kiran");
 		System.out.println(" welcome to java world");
 		
-//		just run the code before run click on  ctrl + s and keep running "just see the difference"
+//		just run the code before run click on  ctrl + s and keep running "just see output"
 	}
 
 }
